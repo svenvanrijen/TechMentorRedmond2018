@@ -12,7 +12,7 @@ notepad
 
 Get-Process -Name notepad
 
-[diagnostics.process]::GetProcessesByName("notepad")
+[system.diagnostics.process]::GetProcessesByName("notepad")
 
 #endregion
 
